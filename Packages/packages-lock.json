@@ -144,6 +144,12 @@
       },
       "url": "https://normcore-registry.normcore.io"
     },
+    "com.soupday.cc3_unity_tools": {
+      "version": "file:../cc_unity_tools_3D-1.6.2",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
       "depth": 2,
