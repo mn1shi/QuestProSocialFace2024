@@ -222,6 +222,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &123749929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1572161834460568, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+  m_PrefabInstance: {fileID: 1129111334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &139765942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6701708543754096869, guid: aa6451b2c95f5584fa019e1eb42e1536, type: 3}
@@ -918,7 +923,7 @@ PrefabInstance:
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localAvatarPrefab
       value: 
-      objectReference: {fileID: 6926090268330952992, guid: ab7e7e6e9262ef04082b330339094eaf, type: 3}
+      objectReference: {fileID: 1435502846325602, guid: 132fa799030920d4cb15dfab7ec5c45f, type: 3}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.leftHand
       value: 
@@ -930,8 +935,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1572161834460568, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1129111338}
   m_SourcePrefab: {fileID: 100100000, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+--- !u!81 &1129111338
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123749929}
+  m_Enabled: 1
 --- !u!1001 &1145943416
 PrefabInstance:
   m_ObjectHideFlags: 0
