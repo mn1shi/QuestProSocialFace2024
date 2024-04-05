@@ -1473,6 +1473,14 @@ PrefabInstance:
       propertyPath: _localAvatarPrefab
       value: 
       objectReference: {fileID: 6926090268330952992, guid: ab7e7e6e9262ef04082b330339094eaf, type: 3}
+    - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+      propertyPath: _localPlayer.leftHand
+      value: 
+      objectReference: {fileID: 127940095}
+    - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+      propertyPath: _localPlayer.rightHand
+      value: 
+      objectReference: {fileID: 947772452}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
