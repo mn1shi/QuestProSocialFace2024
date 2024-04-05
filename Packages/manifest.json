@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.meta.movement": "file:C:/Users/fangm/Downloads/Unity-Movement-4.4.0/Unity-Movement-4.4.0",
+    "com.meta.movement": "file:../Unity-Movement-4.4.0/Unity-Movement-4.4.0",
     "com.meta.xr.sdk.all": "62.0.0",
     "com.normalvr.normcore": "2.9.3",
     "com.unity.collab-proxy": "2.3.1",
