@@ -259,6 +259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camila
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 3d3154ed1d70fc644b4774bf62bb1c0c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -275,9 +279,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d3154ed1d70fc644b4774bf62bb1c0c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 87635901}
-    - targetCorrespondingSourceObject: {fileID: 8304175215116285622, guid: 3d3154ed1d70fc644b4774bf62bb1c0c, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d3154ed1d70fc644b4774bf62bb1c0c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 87635905}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d3154ed1d70fc644b4774bf62bb1c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 87635906}
     - targetCorrespondingSourceObject: {fileID: 8304175215116285622, guid: 3d3154ed1d70fc644b4774bf62bb1c0c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 87635904}
@@ -579,7 +586,7 @@ MonoBehaviour:
   _forceJawDropForTongue: 1
   _tongueOutThreshold: 0.25
   _minJawDrop: 0.5
-  _blendshapeModifier: {fileID: 0}
+  _blendshapeModifier: {fileID: 87635906}
   _combinationShapesTextAsset: {fileID: 0}
 --- !u!114 &87635905
 MonoBehaviour:
@@ -587,12 +594,30 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87635900}
+  m_GameObject: {fileID: 87635875}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a95044baf65b10c4e89b246d2f881ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &87635906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87635875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5f898cc52890e478827a817f6f004a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _faceExpressionModifiers: []
+  _defaultBlendshapeModifierPreset: {fileID: 4900000, guid: 6acc36167f7ffe145b763501a87d4e68, type: 3}
+  _globalMultiplier: 1
+  _globalClampMin: 0
+  _globalClampMax: 1
+  _applyGlobalClampingNonMapped: 1
 --- !u!1 &99439046
 GameObject:
   m_ObjectHideFlags: 0
