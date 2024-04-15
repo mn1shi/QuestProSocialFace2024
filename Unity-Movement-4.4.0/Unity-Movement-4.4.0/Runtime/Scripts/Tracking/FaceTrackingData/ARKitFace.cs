@@ -54,6 +54,7 @@ namespace Oculus.Movement.Tracking
             ("A02_Brow_Down_Left", OVRFaceExpressions.FaceExpression.BrowLowererL),
             ("A03_Brow_Down_Right", OVRFaceExpressions.FaceExpression.BrowLowererR),
             ("A01_Brow_Inner_Up", OVRFaceExpressions.FaceExpression.InnerBrowRaiserL),
+            ("A04_Brow_Outer_Up_Left", OVRFaceExpressions.FaceExpression.OuterBrowRaiserL),
             ("A05_Brow_Outer_Up_Right", OVRFaceExpressions.FaceExpression.OuterBrowRaiserR),
             ("A20_Cheek_Puff", OVRFaceExpressions.FaceExpression.CheekPuffL),
             ("A21_Cheek_Squint_Left", OVRFaceExpressions.FaceExpression.CheekRaiserL),
