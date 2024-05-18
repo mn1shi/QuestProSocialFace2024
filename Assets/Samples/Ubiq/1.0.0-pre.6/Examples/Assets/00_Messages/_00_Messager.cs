@@ -14,6 +14,7 @@ namespace Ubiq.Examples
             context = NetworkScene.Register(this);
         }
 
+        //Change color function
         public void SetColor(Color32 color)
         {
             GetComponentInChildren<Renderer>().material.color = color;
