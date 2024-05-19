@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RoketboxCatalogue
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 3697805639489865150, guid: 00d9238efea09414cb3c3b271b45af87, type: 3}
+  - {fileID: 8651745708818886120, guid: a0665c662824ca44a90b9c34d1d13213, type: 3}
