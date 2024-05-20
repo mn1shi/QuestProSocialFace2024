@@ -18,6 +18,7 @@ public class JoinSameRoom : MonoBehaviour
     public void Join()
     {
         lastRequestedJoincode = joincodeText.text.ToLowerInvariant();
+        Debug.Log("code: " + lastRequestedJoincode);
         mainMenu.roomClient.Join(joincode: lastRequestedJoincode);
     }
 
