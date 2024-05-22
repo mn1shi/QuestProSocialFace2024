@@ -38,7 +38,7 @@ namespace Ubiq.Avatars
         /// Peer is set externally (using SetPeer()). This must be done as soon as the Avatar is created.
         /// </remarks>
         public IPeer Peer { get; private set; }
-        //public AvatarHints hints { get; private set; }
+        public AvatarHints hints { get; private set; }
 
         /// <summary>
         /// Emitted when the properties of the Peer this Avatar belongs to are updated.
@@ -101,10 +101,10 @@ namespace Ubiq.Avatars
             }
         }
 
-        //public void SetHints(AvatarHints hints)
-        //{
-        //    this.hints = hints;
-        //}
+        public void SetHints(AvatarHints hints)
+        {
+            this.hints = hints;
+        }
 
         private bool hasStarted = false;
 
