@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class FaceAnimationHandler : MonoBehaviour
 {
+    private SkinnedMeshRenderer headMesh;
+
+
     // Start is called before the first frame update
     void Start()
     {
